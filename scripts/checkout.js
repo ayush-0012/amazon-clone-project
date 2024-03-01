@@ -141,11 +141,12 @@ document.querySelectorAll('.js-save-quantity-link').forEach((link) => {
     const quantityInput = document.querySelector(`.js-quantity-input-${productId}`);
 
     let newQuantity = Number(quantityInput.value);
-
+    updateCartQuantity(productId , newQuantity);
     // if(newQuantity >= 0 && newQuantity <= 1000){
     //   newQuantity 
     // }
 
+    console.log('fjdsk')
 
     //updating value entered by the user
     if(newQuantity < 0 || newQuantity >= 1000){
