@@ -164,10 +164,6 @@ document.querySelectorAll('.js-save-quantity-link').forEach((link) => {
     updateCartQuantity();
     // quantityLabel.innerHTML = newQuantity;
 
-
-    
-    
-    
   });
 });
 
