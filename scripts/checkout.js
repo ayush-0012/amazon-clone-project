@@ -2,9 +2,9 @@ import { cart, removeFromCart, calculateCartQuantity, updateQuantity } from "../
 import { products } from "../data/products.js";
 import { formatCurrency } from "./utils/money.js";
 
-
 let checkoutItems = document.querySelector('.js-checkout-items');
 let cartSummaryHtml = '';
+
 
 cart.forEach((cartItem) => {
    const productId = cartItem.productId;
